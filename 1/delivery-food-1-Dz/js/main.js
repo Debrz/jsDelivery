@@ -26,6 +26,7 @@ let login = localStorage.getItem('gloDelivery');
 
 function toogleModalAuth() {
   modalAuth.classList.toggle('is-open');
+  loginInputBorderStyle();
 }
 
 function loginInputBorderStyle() {
